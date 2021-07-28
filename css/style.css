@@ -41,6 +41,16 @@ ul {
   text-decoration: none;
 }
 
+.navigation .link-active {
+  color: var(--accent-text-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
 .navigation .link:hover {
   color: var(--accent-text-color);
 }
@@ -106,6 +116,7 @@ footer {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .benefits .text {
@@ -145,6 +156,10 @@ footer {
 /* Footer */
 
 /* background идентичный с героем, прописал в герое */
+
+footer .logo {
+  color: var(--white-text-color);
+}
 
 footer .footer-address {
   color: var(--white-text-color);
