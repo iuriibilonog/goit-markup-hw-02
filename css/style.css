@@ -7,6 +7,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  color: var(--primary-text-color);
 }
 
 ul {
@@ -100,7 +101,6 @@ footer {
 /* Наши приемущества */
 
 .benefits .title {
-  color: var(--primary-text-color);
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -110,7 +110,6 @@ footer {
 
 .benefits .text {
   color: var(--secondary-text-color);
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -119,7 +118,6 @@ footer {
 /* Чем мы занимаемся */
 
 .sections-title {
-  color: var(--primary-text-color);
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -131,7 +129,6 @@ footer {
 /* Наша команда */
 
 .our-team .person-title {
-  color: var(--primary-text-color);
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -140,7 +137,6 @@ footer {
 
 .our-team .person-text {
   color: var(--secondary-text-color);
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -168,12 +164,24 @@ footer .footer-contacts {
   text-decoration: none;
 }
 
+footer .footer-contacts:hover {
+  color: var(--accent-text-color);
+}
+
+footer .footer-contacts:focus {
+  color: var(--accent-text-color);
+}
+
 /* СТИЛИ ДЛЯ ПОРТФОЛИО */
 
 /* Не прописывал стили для header и footer, так как
 классы идентичные с index.html */
 
 /* Buttons */
+
+.filter-portfolio button {
+  cursor: pointer;
+}
 
 .filter-portfolio button:hover {
   background-color: var(--accent-text-color);
@@ -185,7 +193,7 @@ footer .footer-contacts {
   color: var(--white-text-color);
 }
 
-.filter-portfolio .button-name {
+.filter-portfolio button {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -209,7 +217,6 @@ footer .footer-contacts {
 
 .projects .text {
   color: var(--secondary-text-color);
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
